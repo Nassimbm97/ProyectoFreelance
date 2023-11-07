@@ -32,7 +32,7 @@
           </p>
           <a  href="#" class="boton">Contactar</a>
       </div>
-        <section class="circulos sombra">
+        <section class="circulos2 sombra">
            <form action="" id="formulario" class="formulariopre">
             <legend>Presupuesto</legend>
             <div class="contenedor-campos2">
@@ -42,27 +42,31 @@
                </div>
                <div class="campo">
                 <label>Tipología</label>
-                <form>
-                  <label for="FrontEnd">FrontEnd</label>
-                  <input class="input-text" type="radio" id="FrontEnd" name="type">
-                  <label for="BackEnd">BackEnd</label>
-                  <select id="BackEnd" name="BackEnd">
-                    <option value="ninguno"></option>
-                    <option value="Java">Java</option>
-                    <option value="PHP">PHP</option>
-                    <option value="otro">Otro</option>
-                  </select>
-                </form>
-               </div>
-               <div class="campo" >
-                 <label>¿Desea una imagen corporativa?</label>
-                 <form>
-                   <label for="Si">Si</label>
-                   <input class="input-text"  type="radio" id="Si" name="Imgcorp" value="Si">
-                   <label for="No">No</label>
-                   <input class="input-text" type="radio" id="No" name="Imgcorp" valuse="No">
-                  </form>
+                <label for="FrontEnd">FrontEnd</label>
+                <input class="input-text" type="radio" id="FrontEnd" name="type">
+                <label for="BackEnd">BackEnd</label>
+                <select id="BackEnd" name="BackEnd">
+                  <option value="ninguno"></option>
+                  <option value="Java">Java</option>
+                  <option value="PHP">PHP</option>
+                  <option value="otro">Otro</option>
+                </select>
+              </div>
+              <div class="campo" >
+                <label>¿Desea una imagen corporativa?</label>
+                <div class="flex">
+                  <label for="Si">Si</label>
+                  <input class="input-text"  type="radio" id="Si" name="Imgcorp" value="Si">
                 </div>
+                <div class="flex">
+                  <label for="No">No</label>
+                  <input class="input-text" type="radio" id="No" name="Imgcorp" value="No">
+                 </div>
+               </div>
+                 
+              
+              
+
                 <div class="campo" >
                   <label>Web Actual</label>
                   <input class="input-text"  type="text" placeholder="https://exampleWeb.com">
